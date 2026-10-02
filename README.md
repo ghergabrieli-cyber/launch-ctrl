@@ -32,3 +32,7 @@ The public form POSTs to `/api/lead`.
 
 ## Deployment
 Designed for Vercel. `vercel.json` includes baseline security headers.
+
+## Launch-readiness additions
+- Privacy baseline page (must be completed with final controller/contact details before commercial launch)
+- robots.txt
