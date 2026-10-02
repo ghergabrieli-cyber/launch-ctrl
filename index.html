@@ -221,6 +221,7 @@
           <label>BUDGET RANGE<select name="budget"><option value="">Select</option><option>€500–€1,000</option><option>€1,000–€2,500</option><option>€2,500–€5,000</option><option>€5,000–€10,000</option><option>€10,000+</option></select></label>
         </div>
         <label>NOTES<textarea name="notes" rows="5" placeholder="Tell us what success looks like for this build."></textarea></label>
+        <label class="hp-field" aria-hidden="true">COMPANY WEBSITE<input name="company_website" tabindex="-1" autocomplete="off" /></label>
         <label class="consent"><input type="checkbox" required /> <span data-i18n="contact.consent">I agree to be contacted about this project. No spam.</span></label>
         <div class="form-submit"><button class="button button-primary button-xl" type="submit" data-i18n="contact.cta">TURN THE KEY</button><p class="form-status" id="leadStatus" role="status"></p></div>
       </form>
@@ -231,7 +232,7 @@
     <div class="brand footer-brand"><span class="brand-mark">LC</span><span>LAUNCH CTRL</span></div>
     <p>BUILD #000 · PERFORMANCE / LAUNCH / INTERNATIONAL REACH</p>
     <p class="qa-note">DE / IT / RU commercial copy: native QA required before production publication.</p>
-    <p>© <span id="year"></span> LAUNCH CTRL</p>
+    <p>© <span id="year"></span> LAUNCH CTRL · <a href="./privacy.html">Privacy</a></p>
   </footer>
 
   <script src="./app.js" defer></script>
