@@ -10,10 +10,15 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed.' });
   }
 
+  const contentLength = Number(req.headers?.['content-length'] || 0);
+  if (contentLength > 25000) return res.status(413).json({ error: 'Payload too large.' });
+
   let body = req.body || {};
   if (typeof body === 'string') {
     try { body = JSON.parse(body); } catch { return res.status(400).json({ error: 'Invalid JSON payload.' }); }
   }
+  if (clean(body.company_website)) return res.status(200).json({ ok: true });
+
   const data = Object.fromEntries(allowedFields.map(key => [key, clean(body[key])]));
   if (!data.name || !data.business || !data.email || !data.need) {
     return res.status(400).json({ error: 'Please complete the required project fields.' });
