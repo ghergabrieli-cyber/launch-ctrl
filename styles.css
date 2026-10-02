@@ -193,3 +193,7 @@ input, select, textarea { width: 100%; border: 1px solid #2c3138; background: #0
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; }
   .launch-intro { display: none; }
 }
+
+.hp-field { position:absolute !important; left:-9999px !important; width:1px !important; height:1px !important; overflow:hidden !important; }
+.site-footer a { color: inherit; text-decoration-color: #4a515b; }
+.site-footer a:hover { color: var(--white); }
