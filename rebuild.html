@@ -1,0 +1,51 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="theme-color" content="#090a0c"/><meta name="description" content="Website diagnosis, rescue and redesign from LAUNCH CTRL."/><meta name="robots" content="index,follow"/>
+<title>REBUILD — LAUNCH CTRL</title><link rel="stylesheet" href="./styles.css"/></head>
+<body data-page="rebuild"><a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header site-header-v2" id="top">
+  <div class="header-top">
+    <a href="./index.html" class="brand" aria-label="LAUNCH CTRL home"><span class="brand-mark">LC</span><span>LAUNCH CTRL</span></a>
+    <div class="lang-switcher" aria-label="Language">
+      <button class="lang is-active" data-lang="en" aria-pressed="true">EN</button>
+      <button class="lang" data-lang="ro" aria-pressed="false">RO</button>
+      <button class="lang" data-lang="fr" aria-pressed="false">FR</button>
+      <button class="lang qa" data-lang="de" aria-pressed="false" title="Native QA pending">DE</button>
+      <button class="lang qa" data-lang="it" aria-pressed="false" title="Native QA pending">IT</button>
+      <button class="lang qa" data-lang="ru" aria-pressed="false" title="Native QA pending">RU</button>
+    </div>
+  </div>
+  <nav class="site-tabs" aria-label="Primary navigation">
+    <a href="./index.html" data-i18n="nav.home">HOME</a>
+    <a href="./builds.html" data-i18n="nav.services">BUILDS</a>
+    <a href="./garage.html" data-i18n="nav.garage">GARAGE</a>
+    <a href="./cross-border.html" data-i18n="nav.cross">CROSS-BORDER</a>
+    <a href="./rebuild.html" data-i18n="nav.rescue" aria-current="page">REBUILD</a>
+    <a href="./pit-crew.html" data-i18n="nav.pit">PIT CREW</a>
+    <a href="./contact.html" data-i18n="nav.contact">CONTACT</a>
+  </nav>
+</header>
+<main id="main" class="page-main">
+<section class="page-hero danger-hero"><span class="page-code">04 / REBUILD</span><h1 data-i18n="rescue.title">YOUR WEBSITE IS LOSING HORSEPOWER.</h1><p data-i18n="rescue.body">Get a free 5-minute diagnosis across mobile, design, copy, conversion and performance basics.</p></section>
+<section class="section rebuild-page">
+  <form class="diagnosis-form" id="diagnosisForm">
+    <label for="diagnosisUrl">WEBSITE URL</label>
+    <div class="input-action"><input id="diagnosisUrl" name="website" type="url" placeholder="https://yourbusiness.com" required/><button class="button button-primary" type="submit" data-i18n="rescue.cta">GET A REBUILD QUOTE</button></div>
+    <p class="form-status" id="diagnosisStatus" role="status"></p>
+  </form>
+  <div class="rebuild-demo">
+    <div class="rebuild-demo-head"><div><span class="cap-code">REBUILD / VISUAL DIAGNOSIS</span><strong data-i18n="rebuildDemo.title">DRAG IT FROM LOST TO LAUNCH-READY.</strong></div><span id="rebuildPercent">62%</span></div>
+    <div class="rebuild-stage">
+      <div class="rebuild-before"><span>BEFORE</span><div class="mock-browser bad"><i></i><i></i><i></i><b data-i18n="rebuildDemo.beforeHeadline">EVERYTHING COMPETES.</b><p data-i18n="rebuildDemo.beforeBody">Weak hierarchy · buried CTA · generic sections · no clear route.</p></div></div>
+      <div class="rebuild-after" id="rebuildAfter"><span>AFTER / LAUNCH CTRL</span><div class="mock-browser good"><i></i><i></i><i></i><b data-i18n="rebuildDemo.afterHeadline">ONE JOB. CLEAR ROUTE.</b><p data-i18n="rebuildDemo.afterBody">Distinct direction · strong hierarchy · deliberate conversion · mobile-first structure.</p></div></div>
+      <div class="rebuild-divider" id="rebuildDivider"><em>MOVE</em></div>
+    </div>
+    <label class="rebuild-range"><span data-i18n="rebuildDemo.range">REBUILD INTENSITY</span><input id="rebuildSlider" type="range" min="8" max="92" value="62"/></label>
+  </div>
+</section>
+</main><footer class="site-footer">
+<div class="brand footer-brand"><span class="brand-mark">LC</span><span>LAUNCH CTRL</span></div>
+<p>BUILD #000 · PERFORMANCE / LAUNCH / INTERNATIONAL REACH</p>
+<p class="qa-note">DE / IT / RU commercial copy: native QA required before production publication.</p>
+<p>© <span id="year"></span> LAUNCH CTRL · <a href="./privacy.html">Privacy</a></p>
+</footer><script src="./app.js" defer></script></body></html>
