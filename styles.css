@@ -244,3 +244,36 @@ a{color:inherit}button,input,select,textarea{font:inherit}button,a{-webkit-tap-h
   .portfolio-tile{min-height:270px}
   .pit-cta{grid-template-columns:1fr;align-items:start}
 }
+
+
+/* BUSINESS IMPACT + FAQ */
+.impact-section{padding-top:5rem}
+.impact-disclaimer{max-width:900px;margin:-1rem 0 1.5rem;color:#747d87;font-size:.78rem}
+.impact-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #343b44;border-left:1px solid #343b44}
+.impact-grid article{min-height:225px;padding:1.15rem;border-right:1px solid #343b44;border-bottom:1px solid #343b44;background:linear-gradient(145deg,#0d1014,#080a0d);position:relative;overflow:hidden}
+.impact-grid article::after{content:"";position:absolute;left:0;right:0;bottom:0;height:4px;background:linear-gradient(90deg,var(--electric),var(--redline));transform:scaleX(.09);transform-origin:left;transition:transform .18s ease}
+.impact-grid article:hover::after{transform:scaleX(1)}
+.impact-grid span{display:block;color:#545d67;font-family:Impact,sans-serif;font-size:2rem;font-style:italic}
+.impact-grid strong{display:block;margin:2.8rem 0 .5rem;font-family:Impact,sans-serif;font-style:italic;font-size:clamp(1.5rem,2.7vw,2.7rem)}
+.impact-grid p{margin:0;color:#969ea7;max-width:360px}
+
+.faq-block{margin-top:5rem;padding-top:4rem;border-top:1px solid #343b44}
+.faq-list{border-top:1px solid #343b44}
+.faq-list details{border-bottom:1px solid #343b44;background:#090c10}
+.faq-list details[open]{background:linear-gradient(90deg,rgba(215,255,47,.035),#090c10 28%)}
+.faq-list summary{list-style:none;cursor:pointer;padding:1.25rem 3.8rem 1.25rem 1rem;font-family:"Arial Narrow",sans-serif;font-size:clamp(1rem,2vw,1.35rem);font-weight:950;letter-spacing:.06em;position:relative}
+.faq-list summary::-webkit-details-marker{display:none}
+.faq-list summary::after{content:"+";position:absolute;right:1rem;top:50%;transform:translateY(-50%);font-family:Impact,sans-serif;font-size:1.8rem;color:var(--electric);transition:transform .18s ease}
+.faq-list details[open] summary::after{transform:translateY(-50%) rotate(45deg)}
+.faq-list details p{margin:0;padding:0 4rem 1.25rem 1rem;color:#929aa4;max-width:900px;line-height:1.6}
+
+@media(max-width:900px){
+  .impact-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:680px){
+  .impact-grid{grid-template-columns:1fr}
+  .impact-grid article{min-height:190px}
+  .faq-block{margin-top:3rem}
+  .faq-list summary{padding-left:.8rem}
+  .faq-list details p{padding-left:.8rem;padding-right:1rem}
+}
