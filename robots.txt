@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://launch-ctrl-7zdf.vercel.app/sitemap.xml
