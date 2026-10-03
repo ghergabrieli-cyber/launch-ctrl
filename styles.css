@@ -135,3 +135,38 @@ a{color:inherit}button,input,select,textarea{font:inherit}button,a{-webkit-tap-h
   .case-shell{width:calc(100% - 1.2rem);padding-top:3rem}
   .case-hero{min-height:480px;padding:1.25rem}
 }
+
+
+/* REBUILD COMPARISON */
+.rebuild-demo{grid-column:1/-1;margin-top:1.5rem;border:1px solid #343b44;background:#080a0d;padding:1.2rem;clip-path:polygon(0 0,calc(100% - 18px) 0,100% 18px,100% 100%,18px 100%,0 calc(100% - 18px))}
+.rebuild-demo-head{display:flex;align-items:end;justify-content:space-between;gap:1rem;margin-bottom:1rem}
+.rebuild-demo-head>div{display:grid;gap:.35rem}
+.rebuild-demo-head strong{font-family:Impact,sans-serif;font-style:italic;font-size:clamp(1.8rem,4vw,4rem);line-height:.92}
+.rebuild-demo-head>span{font-family:Impact,sans-serif;font-style:italic;font-size:clamp(2rem,4vw,4.5rem);color:var(--electric)}
+.rebuild-stage{position:relative;height:360px;overflow:hidden;border:1px solid #343b44;background:#090b0e}
+.rebuild-before,.rebuild-after{position:absolute;inset:0;padding:1.1rem;display:grid;align-content:end}
+.rebuild-before{background:linear-gradient(145deg,#17191e,#0b0c0f)}
+.rebuild-after{background:radial-gradient(circle at 80% 20%,rgba(215,255,47,.14),transparent 24%),linear-gradient(145deg,#11161a,#07090c);clip-path:inset(0 0 0 38%)}
+.rebuild-before>span,.rebuild-after>span{position:absolute;top:1rem;left:1rem;font-size:.62rem;font-weight:950;letter-spacing:.14em;color:#8c949d}
+.rebuild-after>span{color:var(--electric)}
+.mock-browser{width:min(78%,720px);min-height:215px;border:1px solid #3a414a;padding:1rem;display:block;position:relative;overflow:hidden}
+.mock-browser i{display:inline-block;width:7px;height:7px;border-radius:50%;background:#59616b;margin-right:4px}
+.mock-browser b{display:block;margin-top:3.5rem;font-family:Impact,sans-serif;font-style:italic;font-size:clamp(1.8rem,4vw,4rem);line-height:.9}
+.mock-browser p{max-width:560px;color:#9199a2}
+.mock-browser.bad{margin-left:3%;transform:rotate(-1.2deg);background:repeating-linear-gradient(0deg,#101216 0 34px,#0d0f12 34px 68px)}
+.mock-browser.bad b{color:#777f88}
+.mock-browser.good{margin-left:auto;margin-right:3%;border-color:#657021;background:linear-gradient(145deg,#11161a,#080a0d)}
+.mock-browser.good b{color:#fff}
+.mock-browser.good::after{content:"CTA";position:absolute;right:1rem;bottom:1rem;background:var(--electric);color:#050607;padding:.5rem .8rem;font-size:.62rem;font-weight:1000;letter-spacing:.12em}
+.rebuild-divider{position:absolute;top:0;bottom:0;left:62%;width:2px;background:var(--electric);box-shadow:0 0 20px rgba(215,255,47,.35);pointer-events:none}
+.rebuild-divider em{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:#050607;border:1px solid var(--electric);color:var(--electric);padding:.45rem .55rem;font-size:.52rem;font-style:normal;font-weight:950;letter-spacing:.1em}
+.rebuild-range{display:grid;grid-template-columns:auto 1fr;gap:1rem;align-items:center;margin-top:1rem;color:#777f88;font-size:.6rem;font-weight:950;letter-spacing:.12em}
+.rebuild-range input{padding:0;accent-color:var(--electric)}
+@media(max-width:680px){
+  .rebuild-demo-head{align-items:start;flex-direction:column}
+  .rebuild-stage{height:440px}
+  .mock-browser{width:94%;min-height:250px}
+  .mock-browser.bad{margin-left:0}
+  .mock-browser.good{margin-right:0}
+  .rebuild-range{grid-template-columns:1fr}
+}
