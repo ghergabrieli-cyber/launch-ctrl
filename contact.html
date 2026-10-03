@@ -1,0 +1,53 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="theme-color" content="#090a0c"/><meta name="description" content="Send a project brief to LAUNCH CTRL."/><meta name="robots" content="index,follow"/>
+<title>START YOUR BUILD — LAUNCH CTRL</title><link rel="stylesheet" href="./styles.css"/></head>
+<body data-page="contact"><a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header site-header-v2" id="top">
+  <div class="header-top">
+    <a href="./index.html" class="brand" aria-label="LAUNCH CTRL home"><span class="brand-mark">LC</span><span>LAUNCH CTRL</span></a>
+    <div class="lang-switcher" aria-label="Language">
+      <button class="lang is-active" data-lang="en" aria-pressed="true">EN</button>
+      <button class="lang" data-lang="ro" aria-pressed="false">RO</button>
+      <button class="lang" data-lang="fr" aria-pressed="false">FR</button>
+      <button class="lang qa" data-lang="de" aria-pressed="false" title="Native QA pending">DE</button>
+      <button class="lang qa" data-lang="it" aria-pressed="false" title="Native QA pending">IT</button>
+      <button class="lang qa" data-lang="ru" aria-pressed="false" title="Native QA pending">RU</button>
+    </div>
+  </div>
+  <nav class="site-tabs" aria-label="Primary navigation">
+    <a href="./index.html" data-i18n="nav.home">HOME</a>
+    <a href="./builds.html" data-i18n="nav.services">BUILDS</a>
+    <a href="./garage.html" data-i18n="nav.garage">GARAGE</a>
+    <a href="./cross-border.html" data-i18n="nav.cross">CROSS-BORDER</a>
+    <a href="./rebuild.html" data-i18n="nav.rescue">REBUILD</a>
+    <a href="./pit-crew.html" data-i18n="nav.pit">PIT CREW</a>
+    <a href="./contact.html" data-i18n="nav.contact" aria-current="page">CONTACT</a>
+  </nav>
+</header>
+<main id="main" class="page-main">
+<section class="page-hero"><span class="page-code">06 / CONTACT</span><h1 data-i18n="contact.title">READY TO LAUNCH?</h1><p data-i18n="contact.body">Tell us what the business needs. We will turn that into a clear build scope.</p></section>
+<section class="section contact-page">
+<form class="lead-form" id="leadForm">
+  <div class="form-grid">
+    <label>NAME<input name="name" autocomplete="name" required/></label><label>BUSINESS<input name="business" autocomplete="organization" required/></label>
+    <label>EMAIL<input name="email" type="email" autocomplete="email" required/></label><label>COUNTRY<input name="country" autocomplete="country-name"/></label>
+    <label>INDUSTRY<input name="industry"/></label><label>EXISTING WEBSITE<input name="website" type="url" placeholder="https://"/></label>
+    <label>WHAT DO YOU NEED?<select name="need" required><option value="">Select</option><option>Quickstart</option><option>Full Build</option><option>Cross-Border</option><option>Rebuild</option><option>Shop Build</option><option>Full Spec</option><option>Pit Crew</option></select></label>
+    <label>APPROX. PAGES<input name="pages" type="number" min="1" max="200"/></label>
+    <label>LANGUAGES<input name="languages" placeholder="EN, RO, FR…"/></label><label>FUNCTIONALITY<input name="features" placeholder="Booking, shop, integrations…"/></label>
+    <label>DEADLINE<input name="deadline" placeholder="e.g. 6–8 weeks"/></label>
+    <label>BUDGET RANGE<select name="budget"><option value="">Select</option><option>€500–€1,000</option><option>€1,000–€2,500</option><option>€2,500–€5,000</option><option>€5,000–€10,000</option><option>€10,000+</option></select></label>
+  </div>
+  <label>NOTES<textarea name="notes" rows="5" placeholder="Tell us what success looks like for this build."></textarea></label>
+  <label class="hp-field" aria-hidden="true">COMPANY WEBSITE<input name="company_website" tabindex="-1" autocomplete="off"/></label>
+  <label class="consent"><input type="checkbox" required/><span data-i18n="contact.consent">I agree to be contacted about this project. No spam.</span></label>
+  <div class="form-submit"><button class="button button-primary button-xl" type="submit" data-i18n="contact.cta">TURN THE KEY</button><p class="form-status" id="leadStatus" role="status"></p></div>
+</form>
+</section>
+</main><footer class="site-footer">
+<div class="brand footer-brand"><span class="brand-mark">LC</span><span>LAUNCH CTRL</span></div>
+<p>BUILD #000 · PERFORMANCE / LAUNCH / INTERNATIONAL REACH</p>
+<p class="qa-note">DE / IT / RU commercial copy: native QA required before production publication.</p>
+<p>© <span id="year"></span> LAUNCH CTRL · <a href="./privacy.html">Privacy</a></p>
+</footer><script src="./app.js" defer></script></body></html>
