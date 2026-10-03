@@ -1,6 +1,6 @@
 const copy = {
   en: {
-    "nav.services":"Builds","nav.run":"The Run","nav.setup":"Build your setup","nav.garage":"The Garage","nav.rescue":"Rebuild","nav.contact":"Contact",
+    "nav.home":"Home","nav.services":"Builds","nav.run":"The Run","nav.setup":"Build your setup","nav.garage":"The Garage","nav.cross":"Cross-Border","nav.rescue":"Rebuild","nav.pit":"Pit Crew","nav.contact":"Contact",
     "hero.tagline":"YOUR BUSINESS. FULL THROTTLE.","hero.sub":"Websites · E-commerce · Multilingual · Digital Systems","hero.start":"START YOUR BUILD","hero.garage":"ENTER THE GARAGE","langs.interfaceLabel":"VIEW LAUNCH CTRL IN","langs.buildLabel":"WE BUILD CLIENT WEBSITES IN","langs.expand":"DE / IT / RU are available for multilingual builds with localization and native QA before publication.",
     "manifesto":"Different businesses shouldn't look like they came from the same template.","manifestoStrong":"WE DON'T SELL TEMPLATES. WE BUILD FOR THE BUSINESS.","run.kicker":"THE RUN / PROCESS","run.title":"From first brief to live system.","run.brief.title":"BRIEF","run.brief.body":"We get the business, audience, goals, constraints and must-haves straight.","run.direction.title":"DIRECTION","run.direction.body":"We define structure, visual language, content logic and the conversion route.","run.build.title":"BUILD","run.build.body":"The real responsive product is built — not a static mockup pretending to be a website.","run.test.title":"TEST","run.test.body":"Mobile, content, forms, navigation, accessibility basics and production behaviour are checked.","run.launch.title":"LAUNCH","run.launch.body":"Production deployment, domain handoff and the final release checklist.","run.pit.title":"PIT CREW","run.pit.body":"Optional ongoing care for changes, additions, monitoring and future improvements.","dyno.complexity":"BUILD COMPLEXITY","dyno.reach":"MARKET REACH","dyno.load":"SYSTEM LOAD",
     "services.kicker":"SERVICES / BUILDS","services.title":"Choose the machine. Then spec it for your business.","services.quickstart":"Compact website, landing page or focused small-business launch.","services.full":"Custom business website shaped around your offer, audience and workflow.","services.cross":"Multilingual architecture, localization and market-ready adaptation.","services.rebuild":"Rescue, redesign and performance cleanup for websites that stopped working for the business.","services.shop":"E-commerce built around products, trust, checkout clarity and future expansion.","services.fullspec":"Complex custom builds, integrations, automation and advanced functionality.","services.pit":"Monthly website care, monitoring, updates, improvements and support.",
@@ -12,7 +12,7 @@ const copy = {
     "contact.title":"READY TO LAUNCH?","contact.body":"Tell us what the business needs. We will turn that into a clear build scope.","contact.consent":"I agree to be contacted about this project. No spam.","contact.cta":"TURN THE KEY"
   },
   ro: {
-    "nav.services":"Servicii","nav.run":"Proces","nav.setup":"Configurează","nav.garage":"Garajul","nav.rescue":"Reconstrucție","nav.contact":"Contact",
+    "nav.home":"Acasă","nav.services":"Builds","nav.run":"Proces","nav.setup":"Configurează","nav.garage":"Garajul","nav.cross":"Internațional","nav.rescue":"Rebuild","nav.pit":"Pit Crew","nav.contact":"Contact",
     "hero.tagline":"AFACEREA TA. LA TURAȚIE MAXIMĂ.","hero.sub":"Website-uri · E-commerce · Multilingv · Sisteme digitale","hero.start":"PORNEȘTE PROIECTUL","hero.garage":"INTRĂ ÎN GARAJ","langs.interfaceLabel":"VEZI LAUNCH CTRL ÎN","langs.buildLabel":"CONSTRUIM WEBSITE-URI PENTRU CLIENȚI ÎN","langs.expand":"DE / IT / RU sunt disponibile pentru proiecte multilingve, cu localizare și verificare umană/native QA înainte de publicare.",
     "manifesto":"Afaceri diferite nu ar trebui să arate de parcă au venit din același șablon.","manifestoStrong":"NU VINDEM ȘABLOANE. CONSTRUIM PENTRU AFACERE.","run.kicker":"THE RUN / PROCES","run.title":"De la primul brief la sistemul live.","run.brief.title":"BRIEF","run.brief.body":"Clarificăm afacerea, publicul, obiectivele, limitele și lucrurile obligatorii.","run.direction.title":"DIRECȚIE","run.direction.body":"Stabilim structura, limbajul vizual, logica de conținut și traseul de conversie.","run.build.title":"BUILD","run.build.body":"Construim produsul responsive real — nu un mockup static care se preface că este website.","run.test.title":"TEST","run.test.body":"Verificăm mobilul, conținutul, formularele, navigația, bazele accesibilității și comportamentul în producție.","run.launch.title":"LAUNCH","run.launch.body":"Deployment în producție, predarea domeniului și checklistul final de lansare.","run.pit.title":"PIT CREW","run.pit.body":"Îngrijire opțională după lansare pentru modificări, adăugiri, monitorizare și îmbunătățiri.","dyno.complexity":"COMPLEXITATE BUILD","dyno.reach":"ACOPERIRE PIEȚE","dyno.load":"ÎNCĂRCARE SISTEM",
     "services.kicker":"SERVICII / BUILDS","services.title":"Alege baza. Apoi o configurăm pentru afacerea ta.","services.quickstart":"Website compact, landing page sau lansare concentrată pentru o afacere mică.","services.full":"Website de business personalizat în jurul ofertei, publicului și fluxului tău de lucru.","services.cross":"Arhitectură multilingvă, localizare și adaptare pentru piețe internaționale.","services.rebuild":"Salvare, redesign și curățare de performanță pentru site-uri care nu mai lucrează pentru afacere.","services.shop":"E-commerce construit în jurul produselor, încrederii, unui checkout clar și extinderii viitoare.","services.fullspec":"Construcții complexe, integrări, automatizări și funcționalități avansate.","services.pit":"Îngrijire lunară, monitorizare, actualizări, îmbunătățiri și suport.",
@@ -24,7 +24,7 @@ const copy = {
     "contact.title":"GATA DE LANSARE?","contact.body":"Spune-ne de ce are nevoie afacerea. Noi transformăm asta într-un scope clar de proiect.","contact.consent":"Sunt de acord să fiu contactat(ă) despre acest proiect. Fără spam.","contact.cta":"PORNEȘTE MOTORUL"
   },
   fr: {
-    "nav.services":"Services","nav.run":"Le parcours","nav.setup":"Configurer","nav.garage":"Le Garage","nav.rescue":"Refonte","nav.contact":"Contact",
+    "nav.home":"Accueil","nav.services":"Builds","nav.run":"Le parcours","nav.setup":"Configurer","nav.garage":"Le Garage","nav.cross":"International","nav.rescue":"Refonte","nav.pit":"Pit Crew","nav.contact":"Contact",
     "hero.tagline":"VOTRE ACTIVITÉ. PLEIN RÉGIME.","hero.sub":"Sites web · E-commerce · Multilingue · Systèmes digitaux","hero.start":"LANCER VOTRE PROJET","hero.garage":"ENTRER DANS LE GARAGE","langs.interfaceLabel":"VOIR LAUNCH CTRL EN","langs.buildLabel":"NOUS CRÉONS LES SITES CLIENTS EN","langs.expand":"DE / IT / RU sont disponibles pour les projets multilingues avec localisation et validation humaine/native QA avant publication.",
     "manifesto":"Des entreprises différentes ne devraient pas donner l'impression de sortir du même modèle.","manifestoStrong":"NOUS NE VENDONS PAS DES TEMPLATES. NOUS CONSTRUISONS POUR L'ENTREPRISE.","run.kicker":"THE RUN / PROCESSUS","run.title":"Du premier brief au système en ligne.","run.brief.title":"BRIEF","run.brief.body":"Nous clarifions l'activité, le public, les objectifs, les contraintes et les indispensables.","run.direction.title":"DIRECTION","run.direction.body":"Nous définissons la structure, le langage visuel, la logique éditoriale et le parcours de conversion.","run.build.title":"BUILD","run.build.body":"Nous construisons le vrai produit responsive — pas une maquette statique qui prétend être un site.","run.test.title":"TEST","run.test.body":"Mobile, contenu, formulaires, navigation, bases d'accessibilité et comportement en production sont vérifiés.","run.launch.title":"LAUNCH","run.launch.body":"Déploiement en production, transfert du domaine et checklist finale de mise en ligne.","run.pit.title":"PIT CREW","run.pit.body":"Suivi optionnel après lancement pour modifications, ajouts, monitoring et améliorations.","dyno.complexity":"COMPLEXITÉ DU BUILD","dyno.reach":"PORTÉE MARCHÉ","dyno.load":"CHARGE SYSTÈME",
     "services.kicker":"SERVICES / BUILDS","services.title":"Choisissez la base. Puis configurons-la pour votre activité.","services.quickstart":"Site compact, landing page ou lancement ciblé pour petite entreprise.","services.full":"Site professionnel sur mesure construit autour de votre offre, de votre audience et de vos processus.","services.cross":"Architecture multilingue, localisation et adaptation aux marchés internationaux.","services.rebuild":"Refonte, sauvetage et optimisation de sites qui ne servent plus correctement l'activité.","services.shop":"E-commerce pensé pour les produits, la confiance, un checkout clair et la croissance future.","services.fullspec":"Projets complexes sur mesure, intégrations, automatisation et fonctionnalités avancées.","services.pit":"Maintenance mensuelle, suivi, mises à jour, améliorations et support.",
@@ -69,73 +69,91 @@ $$('.lang').forEach(btn => btn.addEventListener('click', () => {
 const savedLang = localStorage.getItem('launchCtrlLang');
 if (savedLang) applyLanguage(savedLang);
 
-const controls = {
-  pages: $('#pages'), langs: $('#langs'), commerce: $('#commerce'), booking: $('#booking'), copywriting: $('#copywriting'), localization: $('#localization'), analytics: $('#analytics'), seo: $('#seo'), accessibility: $('#accessibility'), integrations: $('#integrations'), maintenance: $('#maintenance')
-};
+const configForm = $('#configForm');
+if (configForm) {
+  const controls = {
+    pages: $('#pages'), langs: $('#langs'), commerce: $('#commerce'), booking: $('#booking'),
+    copywriting: $('#copywriting'), localization: $('#localization'), analytics: $('#analytics'),
+    seo: $('#seo'), accessibility: $('#accessibility'), integrations: $('#integrations'), maintenance: $('#maintenance')
+  };
 
-function money(n) { return new Intl.NumberFormat('en-US', {style:'currency', currency:'EUR', maximumFractionDigits:0}).format(Math.round(n / 50) * 50); }
-function estimate() {
-  const pages = Number(controls.pages.value);
-  const langs = Number(controls.langs.value);
-  let low = 620 + pages * 105;
-  let high = 880 + pages * 165;
-  const add = (on, l, h) => { if (on) { low += l; high += h; } };
-  if (langs > 1) { low += (langs - 1) * (240 + pages * 18); high += (langs - 1) * (420 + pages * 30); }
-  add(controls.commerce.checked, 850, 1800);
-  add(controls.booking.checked, 280, 650);
-  add(controls.copywriting.checked, 350, 950);
-  add(controls.localization.checked, Math.max(0, langs - 1) * 190, Math.max(0, langs - 1) * 460);
-  add(controls.analytics.checked, 80, 180);
-  add(controls.seo.checked, 160, 420);
-  add(controls.accessibility.checked, 140, 380);
-  add(controls.integrations.checked, 420, 1400);
-  if (pages > 15) { low += 650; high += 1100; }
-  $('#pagesOut').value = pages; $('#langsOut').value = langs;
-  $('#specPages').textContent = pages; $('#specLangs').textContent = langs;
-  $('#specBooking').textContent = controls.booking.checked ? 'ON' : 'OFF';
-  $('#specCommerce').textContent = controls.commerce.checked ? 'ON' : 'OFF';
-  $('#specCare').textContent = controls.maintenance.checked ? 'ON' : 'OFF';
-  $('#estimateValue').textContent = `${money(low)}–${money(high)}`;
+  const money = (n) => new Intl.NumberFormat('en-US', {style:'currency', currency:'EUR', maximumFractionDigits:0}).format(Math.round(n / 50) * 50);
+  const estimate = () => {
+    const pages = Number(controls.pages.value);
+    const langs = Number(controls.langs.value);
+    let low = 620 + pages * 105;
+    let high = 880 + pages * 165;
+    const add = (on, l, h) => { if (on) { low += l; high += h; } };
+    if (langs > 1) { low += (langs - 1) * (240 + pages * 18); high += (langs - 1) * (420 + pages * 30); }
+    add(controls.commerce.checked, 850, 1800);
+    add(controls.booking.checked, 280, 650);
+    add(controls.copywriting.checked, 350, 950);
+    add(controls.localization.checked, Math.max(0, langs - 1) * 190, Math.max(0, langs - 1) * 460);
+    add(controls.analytics.checked, 80, 180);
+    add(controls.seo.checked, 160, 420);
+    add(controls.accessibility.checked, 140, 380);
+    add(controls.integrations.checked, 420, 1400);
+    if (pages > 15) { low += 650; high += 1100; }
 
-  const featureCount = ['commerce','booking','copywriting','localization','analytics','seo','accessibility','integrations','maintenance']
-    .filter(key => controls[key].checked).length;
-  const complexity = Math.min(100, Math.round(12 + pages * 1.6 + featureCount * 5 + Math.max(0, langs - 1) * 3));
-  const reach = Math.min(100, Math.round(8 + langs * 13 + (controls.localization.checked ? 12 : 0) + (controls.commerce.checked ? 5 : 0)));
-  const load = Math.min(100, Math.round(10 + pages * 1.1 + featureCount * 4 + (controls.commerce.checked ? 12 : 0) + (controls.integrations.checked ? 16 : 0)));
-  [['complexity',complexity],['reach',reach],['load',load]].forEach(([name,value]) => {
-    const out = $('#' + name + 'Out');
-    const bar = $('#' + name + 'Bar');
-    if (out) out.textContent = value;
-    if (bar) bar.style.width = value + '%';
+    $('#pagesOut').value = pages; $('#langsOut').value = langs;
+    $('#specPages').textContent = pages; $('#specLangs').textContent = langs;
+    $('#specBooking').textContent = controls.booking.checked ? 'ON' : 'OFF';
+    $('#specCommerce').textContent = controls.commerce.checked ? 'ON' : 'OFF';
+    $('#specCare').textContent = controls.maintenance.checked ? 'ON' : 'OFF';
+    $('#estimateValue').textContent = `${money(low)}–${money(high)}`;
+
+    const featureCount = ['commerce','booking','copywriting','localization','analytics','seo','accessibility','integrations','maintenance']
+      .filter(key => controls[key].checked).length;
+    const complexity = Math.min(100, Math.round(12 + pages * 1.6 + featureCount * 5 + Math.max(0, langs - 1) * 3));
+    const reach = Math.min(100, Math.round(8 + langs * 13 + (controls.localization.checked ? 12 : 0) + (controls.commerce.checked ? 5 : 0)));
+    const load = Math.min(100, Math.round(10 + pages * 1.1 + featureCount * 4 + (controls.commerce.checked ? 12 : 0) + (controls.integrations.checked ? 16 : 0)));
+    [['complexity',complexity],['reach',reach],['load',load]].forEach(([name,value]) => {
+      const out = $('#' + name + 'Out');
+      const bar = $('#' + name + 'Bar');
+      if (out) out.textContent = value;
+      if (bar) bar.style.width = value + '%';
+    });
+  };
+  Object.values(controls).filter(Boolean).forEach(el => el.addEventListener('input', estimate));
+  estimate();
+}
+
+const diagnosisForm = $('#diagnosisForm');
+if (diagnosisForm) {
+  diagnosisForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const url = $('#diagnosisUrl')?.value.trim() || '';
+    const params = new URLSearchParams({need:'Rebuild'});
+    if (url) params.set('website', url);
+    window.location.href = './contact.html?' + params.toString();
   });
 }
-Object.values(controls).forEach(el => el.addEventListener('input', estimate));
-estimate();
 
-$('#diagnosisForm').addEventListener('submit', (e) => {
-  e.preventDefault();
-  const url = $('#diagnosisUrl').value.trim();
-  $('#diagnosisStatus').textContent = `Added to your rebuild brief: ${url}. Continue below to send the project details.`;
-  $('#leadForm input[name="website"]').value = url;
-  $('#contact').scrollIntoView({behavior:'smooth'});
-});
+const leadForm = $('#leadForm');
+if (leadForm) {
+  const params = new URLSearchParams(window.location.search);
+  const website = params.get('website');
+  const need = params.get('need');
+  if (website && leadForm.elements.website) leadForm.elements.website.value = website;
+  if (need && leadForm.elements.need) leadForm.elements.need.value = need;
 
-$('#leadForm').addEventListener('submit', async (e) => {
-  e.preventDefault();
-  const status = $('#leadStatus');
-  const button = e.currentTarget.querySelector('button[type="submit"]');
-  status.textContent = 'Sending…'; button.disabled = true;
-  const data = Object.fromEntries(new FormData(e.currentTarget).entries());
-  try {
-    const res = await fetch('/api/lead', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(data)});
-    const json = await res.json().catch(() => ({}));
-    if (!res.ok) throw new Error(json.error || 'Could not send the project brief.');
-    status.textContent = 'Build request received. We’ll get back to you with the next step.';
-    e.currentTarget.reset();
-  } catch (err) {
-    status.textContent = err.message || 'Could not send. Please try again.';
-  } finally { button.disabled = false; }
-});
+  leadForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const status = $('#leadStatus');
+    const button = e.currentTarget.querySelector('button[type="submit"]');
+    status.textContent = 'Sending…'; button.disabled = true;
+    const data = Object.fromEntries(new FormData(e.currentTarget).entries());
+    try {
+      const res = await fetch('/api/lead', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(data)});
+      const json = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(json.error || 'Could not send the project brief.');
+      status.textContent = 'Build request received. We’ll get back to you with the next step.';
+      e.currentTarget.reset();
+    } catch (err) {
+      status.textContent = err.message || 'Could not send. Please try again.';
+    } finally { button.disabled = false; }
+  });
+}
 
 const rebuildSlider = $('#rebuildSlider');
 if (rebuildSlider) {
@@ -152,4 +170,5 @@ if (rebuildSlider) {
   updateRebuild();
 }
 
-$('#year').textContent = new Date().getFullYear();
+const year = $('#year');
+if (year) year.textContent = new Date().getFullYear();
