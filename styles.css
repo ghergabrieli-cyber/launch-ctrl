@@ -297,7 +297,8 @@ a{color:inherit}button,input,select,textarea{font:inherit}button,a{-webkit-tap-h
   height:100%;
   object-fit:cover;
   z-index:0;
-  opacity:.66;
+  opacity:.9;
+  filter:saturate(.94) contrast(1.03);
   transition:transform .28s ease,opacity .28s ease,filter .28s ease;
 }
 .mini-build::before,
@@ -305,7 +306,7 @@ a{color:inherit}button,input,select,textarea{font:inherit}button,a{-webkit-tap-h
   z-index:1;
   opacity:1;
   background:
-    linear-gradient(180deg,rgba(5,6,7,.03) 0%,rgba(5,6,7,.18) 38%,rgba(5,6,7,.84) 76%,#050607 100%),
+    linear-gradient(180deg,rgba(5,6,7,.01) 0%,rgba(5,6,7,.06) 38%,rgba(5,6,7,.68) 78%,rgba(5,6,7,.94) 100%),
     linear-gradient(135deg,transparent 45%,currentColor 175%);
 }
 .mini-build>*:not(.build-thumb),
@@ -320,14 +321,14 @@ a{color:inherit}button,input,select,textarea{font:inherit}button,a{-webkit-tap-h
   height:100%;
   object-fit:cover;
   z-index:0;
-  opacity:.72;
+  opacity:.86;
 }
 .case-hero::before{
   z-index:1;
   opacity:1;
   background:
-    linear-gradient(90deg,rgba(5,6,7,.92) 0%,rgba(5,6,7,.66) 48%,rgba(5,6,7,.16) 100%),
-    linear-gradient(0deg,rgba(5,6,7,.90) 0%,rgba(5,6,7,.18) 62%,transparent 100%);
+    linear-gradient(90deg,rgba(5,6,7,.86) 0%,rgba(5,6,7,.48) 48%,rgba(5,6,7,.08) 100%),
+    linear-gradient(0deg,rgba(5,6,7,.80) 0%,rgba(5,6,7,.08) 62%,transparent 100%);
 }
 .case-hero>*:not(.case-visual){position:relative;z-index:2}
 
