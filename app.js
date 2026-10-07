@@ -111,7 +111,7 @@ function applyLanguage(lang) {
   localStorage.setItem('launchCtrlLang', lang);
 }
 
-$('.lang').forEach(btn => btn.addEventListener('click', () => applyLanguage(btn.dataset.lang)));
+$$('.lang').forEach(btn => btn.addEventListener('click', () => applyLanguage(btn.dataset.lang)));
 
 const savedLang = localStorage.getItem('launchCtrlLang');
 if (savedLang) applyLanguage(savedLang);
