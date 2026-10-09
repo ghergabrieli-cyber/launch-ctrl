@@ -67,7 +67,7 @@
     let n;
     while ((n = walker.nextNode())) {
       const p = n.parentElement;
-      if (!p || /^(SCRIPT|STYLE|NOSCRIPT)$/.test(p.tagName)) continue;
+      if (!p || /^(SCRIPT|STYLE|NOSCRIPT)$/.test(p.tagName) || p.closest('[data-i18n]')) continue;
       const raw = n.nodeValue;
       const trimmed = raw.trim();
       if (trimmed && !seenText.has(n)) { sourceText.push([n, {raw, trimmed}]); seenText.add(n); }
