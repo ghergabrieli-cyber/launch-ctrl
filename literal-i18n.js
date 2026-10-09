@@ -57,8 +57,10 @@
     }
   };
 
-  const sourceText = new WeakMap();
-  const sourceAttr = new WeakMap();
+  const sourceText = [];
+  const sourceAttr = [];
+  const seenText = new WeakSet();
+  const seenAttr = new WeakSet();
 
   function remember() {
     const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
@@ -68,9 +70,9 @@
       if (!p || /^(SCRIPT|STYLE|NOSCRIPT)$/.test(p.tagName)) continue;
       const raw = n.nodeValue;
       const trimmed = raw.trim();
-      if (trimmed) sourceText.set(n, {raw, trimmed});
+      if (trimmed && !seenText.has(n)) { sourceText.push([n, {raw, trimmed}]); seenText.add(n); }
     }
-    document.querySelectorAll('[placeholder]').forEach(el => sourceAttr.set(el, el.getAttribute('placeholder')));
+    document.querySelectorAll('[placeholder]').forEach(el => { if (!seenAttr.has(el)) { sourceAttr.push([el, el.getAttribute('placeholder')]); seenAttr.add(el); } });
   }
 
   function applyLiteral(lang) {
@@ -81,10 +83,9 @@
       const tail = src.raw.match(/\s*$/)?.[0] || '';
       node.nodeValue = lead + next + tail;
     }
-    document.querySelectorAll('[placeholder]').forEach(el => {
-      const src = sourceAttr.get(el) || el.getAttribute('placeholder') || '';
+    for (const [el, src] of sourceAttr) {
       el.setAttribute('placeholder', lang === 'en' ? src : (dict[src] || src));
-    });
+    }
   }
 
   remember();
