@@ -336,3 +336,13 @@ a{color:inherit}button,input,select,textarea{font:inherit}button,a{-webkit-tap-h
   .hero-machine{background-position:60% center}
   .case-visual{object-position:center}
 }
+
+
+.case-header-tools{display:flex;align-items:center;gap:1rem;margin-left:auto}
+.case-header-tools .case-code{white-space:nowrap}
+.case-header-tools .lang-switcher{flex-wrap:wrap;justify-content:flex-end}
+@media (max-width:760px){
+  .case-header-tools{width:100%;justify-content:space-between;gap:.6rem}
+  .case-header-tools .lang-switcher{order:2}
+  .case-header-tools .case-code{font-size:.58rem}
+}
